@@ -1,0 +1,83 @@
+body {
+	background: #f8f9fa;
+	margin: 0;
+}
+/* --#{$prefix}btn-border-width: 40px; */
+img {
+	width: 100%;
+}
+.logo, .switch i {
+	cursor: pointer;
+}
+nav .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.logout {
+	color: #db3849;
+}
+main .container {
+	background: #fff;
+}
+#grid {
+	padding-bottom: 10px;
+}
+.create {
+	margin-right: 10px;
+}
+.flex {
+	display: flex;
+}
+textarea {
+	border: solid #ced4da 1px;
+	padding: 10px;
+	width: 100%;
+}
+.btn-light {
+	border: solid #ced4da 1px;
+	margin: 10px 5px 15px 0;
+}
+.switch {
+	text-align: center;
+	display: block;
+	padding: 20px;
+}
+.post {
+	border: solid 1px #ced4da;
+	border-radius: 3px;
+	padding: 10px 0 20px;
+	margin-bottom: 10px;
+}
+.post p {
+	margin: 0 10px;
+}
+.post h2 {
+	font-size: 22px;
+	display: inline-block;
+	margin: 0;
+}
+.post img {
+	margin-bottom: 10px;
+}
+.counter {
+	font-size: 13px;
+}
+.posthead {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px 10px;
+}
+.pagination {
+	justify-content: center;
+}
+.page-link, .page-link:hover, .page-link:focus {
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	color: #3445cf;
+}
